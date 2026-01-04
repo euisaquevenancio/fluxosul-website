@@ -1,0 +1,40 @@
+@import url("root.css");
+
+/* Rodapé */
+.footer {
+    border-top: 1px solid var(--gray);
+    background-color: var(--white);
+}
+
+.footer .container-fluid {
+    width: 90%;
+    max-width: 1320px;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer .container-fluid p {
+    margin-bottom: 7px;
+}
+
+.footer .container-fluid a {
+    font-weight: bold;
+    color: var(--gray-dark);
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.footer .container-fluid a:nth-child(2) {
+    font-size: 28px;
+}
+
+.footer .container-fluid a:hover {
+    color: #5DA36F;
+}
+
+/* Responsividade */
+@media (max-width: 425.9px) {
+    .footer .container-fluid {
+        padding: 16px;
+    }
+}

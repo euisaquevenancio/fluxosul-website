@@ -1,0 +1,102 @@
+@import url("root.css");
+
+/* Cabeçalho */
+.navbar {
+    border-bottom: 1px solid var(--gray);
+    background-color: var(--white);
+}
+
+.navbar .container-fluid {
+    width: 90%;
+    max-width: 1320px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.navbar .container-fluid .navbar-brand img {
+    height: 66px;
+}
+
+.navbar .container-fluid .bi-list {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item:not(:last-of-type) {
+    margin-right: 15px;
+}
+
+.navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+    color: var(--black);
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:hover {
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--green-dark);
+}
+
+.navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link .bi {
+    margin-right: 4px;
+}
+
+/* Barra de navegação lateral */
+.navbar .container-fluid .offcanvas {
+    background-color: var(--white);
+}
+
+.navbar .container-fluid .offcanvas .offcanvas-header {
+    padding: 8px 13px 8px 26px;
+    border-bottom: 1px solid var(--gray);
+    background-color: var(--white);
+}
+
+.navbar .container-fluid .offcanvas .offcanvas-header .bi {
+    cursor: pointer;
+    font-size: 50px;
+    margin-left: auto;
+}
+
+.navbar .container-fluid .offcanvas .offcanvas-body {
+    padding: 26px 13px 26px 26px;
+    background-color: var(--white);
+}
+
+/* Responsividade */
+@media (max-width: 1150px) {
+    .navbar .container-fluid .navbar-brand img {
+        height: 50px;
+    }
+}
+
+@media (max-width: 991.9px) {
+    .navbar .container-fluid .bi-list {
+        display: block;
+    }
+
+    .navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item:not(:last-of-type) {
+        margin-bottom: 6px;
+    }
+
+    .navbar .nav-item:last-of-type {
+        margin-right: 15px;
+    }
+    
+    .navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+        padding: 14px 20px;
+    }
+
+    .navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link.nav-link {
+        border: 1px solid var(--gray);
+    }
+}
+
+@media (max-width: 425.9px) {
+    .navbar .container-fluid {
+        padding: 16px;
+    }
+}
