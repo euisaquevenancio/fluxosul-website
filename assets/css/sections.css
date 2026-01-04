@@ -4,13 +4,12 @@
 #home {
     scroll-margin-top: 109px;
     margin-top: 109px;
-    /*background-color: var(--green-dark);*/
     background-image:
         linear-gradient(
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)
         ),
-        url("/assets/img/servico-desentupimento-completo.png");
+        url("assets/img/servico-desentupimento-completo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -626,4 +625,5 @@ textarea {
     #reviews .container-fluid #reviews-list .review .right-side h4 {
         font-size: 17px;
     }
+
 }
