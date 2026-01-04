@@ -34,6 +34,8 @@ Além disso, o site também serve como um exemplo de como transformar solicitaç
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 <img src="assets/img/SweetAlert2.png" alt="Logo SweetAlert2" width="120">
+![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
 
 ## Instrução de uso
+
 Para acessar o projeto, basta **[clicar aqui](https://euisaquevenancio.github.io/fluxosul-website/)**.
